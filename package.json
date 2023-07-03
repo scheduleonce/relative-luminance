@@ -1,14 +1,25 @@
 {
-  "name": "relative-luminance",
+  "name": "@oncehub/relative-luminance",
   "version": "1.0.0",
   "description": "Relative luminance formula",
-  "main": "index.js",
+  "main": "lib/index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:prettier": "prettier --list-different '**/*.js'",
+    "fix:prettier": "prettier --write '**/*.js'",
+    "test": "npm run test:prettier && tape test"
   },
-  "author": "",
-  "license": "ISC"
+  "keywords": [
+    "luminance",
+    "colors",
+    "accessibility"
+  ],
+  "types": "lib/index.d.ts",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "tape": "^5.6.4"
+  }
 }
