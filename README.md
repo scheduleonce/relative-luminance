@@ -19,16 +19,16 @@ $ npm install @oncehub/relative-luminance
 To use this module, simply require it in your Node.js application and call the relativeLuminance function with a hex color code as its argument. The function will return either "dark" or "light" depending on the luminance of the color.
 
 ```js
-const luminance = require("@oncehub/relative-luminance");
+import luminance from "@oncehub/relative-luminance";
 console.log(luminance("#000000")); // "dark"
 console.log(luminance("#ffffff")); // "light"
 ```
 
-If the input is invalid, the function will return either "Please provide a hex color code" or "Please provide a valid hex code".
+If the input is invalid, the function will throw either "Please provide a hex color code" or "Please provide a valid hex code".
 
 ```js
-console.log(colorLuminance()); // "Please provide a hex color code"
-console.log(colorLuminance("#12345")); // "Please provide a valid hex code"
+console.log(luminance()); // "Please provide a hex color code"
+console.log(luminance("#12345")); // "Please provide a valid hex code"
 ```
 
 ### License
