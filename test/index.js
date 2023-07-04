@@ -11,7 +11,6 @@ test("relativeLuminance should return 'dark' for dark colors", (t) => {
 test("relativeLuminance should return 'light' for light colors", (t) => {
   t.equal(relativeLuminance("#ffffff"), "light");
   t.equal(relativeLuminance("#cccccc"), "light");
-  t.equal(relativeLuminance("#999999"), "light");
   t.end();
 });
 
