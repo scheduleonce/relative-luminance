@@ -10,7 +10,9 @@
   "scripts": {
     "test:prettier": "prettier --list-different '**/*.js'",
     "fix:prettier": "prettier --write '**/*.js'",
-    "test": "npm run test:prettier && node --test test"
+    "test": "npm run test:prettier && node --test test",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "keywords": [
     "luminance",
@@ -20,6 +22,18 @@
   "types": "lib/index.d.ts",
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^2.8.8"
+    "@storybook/addon-essentials": "^7.3.1",
+    "@storybook/addon-interactions": "^7.3.1",
+    "@storybook/addon-links": "^7.3.1",
+    "@storybook/addon-onboarding": "^1.0.8",
+    "@storybook/blocks": "^7.3.1",
+    "@storybook/react": "^7.3.1",
+    "@storybook/react-vite": "^7.3.1",
+    "@storybook/testing-library": "^0.2.0",
+    "prettier": "^2.8.8",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.3.1"
   }
 }

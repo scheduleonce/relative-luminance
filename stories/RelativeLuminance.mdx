@@ -1,0 +1,13 @@
+import { Meta, Primary, Controls, Story, Canvas } from "@storybook/blocks";
+import * as ButtonStories from "./Button.stories";
+
+<Meta title="Relative luminance" />
+
+# Relative Luminance
+
+Change the theme color to see how the button text color changes according to the luminance of the
+background color
+
+<Canvas of={ButtonStories.Primary} />
+
+<Controls of={ButtonStories.Primary} />
