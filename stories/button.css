@@ -10,10 +10,12 @@
 .storybook-button--primary {
   color: white;
   background-color: #006bb1;
+  border: 1px solid #000;
 }
 .storybook-button--secondary {
   color: #333;
   background-color: transparent;
+  border: 1px solid #000;
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
 }
 .storybook-button--small {
