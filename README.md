@@ -31,6 +31,11 @@ console.log(luminance()); // "Please provide a hex color code"
 console.log(luminance("#12345")); // "Please provide a valid hex code"
 ```
 
+### Development
+
+1. Storybook is [automatically deployed](.github/workflows/deploy.yml) to Github Pages when pushing to main.
+2. Package is automatically pushed to npm when [creating a new release](.github/workflows/npm-publish.yml) on Github. Check out the release section in the repo. Read more about releases [here](https://docs.github.com/en/repositories/releasing-projects-on-github/managing-releases-in-a-repository).
+
 ### License
 
 This module is licensed under the MIT License. See the LICENSE file for details.
