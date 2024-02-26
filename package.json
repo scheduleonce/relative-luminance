@@ -1,6 +1,6 @@
 {
   "name": "@oncehub/relative-luminance",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Relative luminance formula",
   "main": "lib/index.js",
   "directories": {
