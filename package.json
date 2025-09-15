@@ -1,6 +1,6 @@
 {
   "name": "@oncehub/relative-luminance",
-  "version": "2.1.4-beta",
+  "version": "2.1.4-beta.1",
   "description": "Relative luminance formula",
   "main": "lib/index.js",
   "directories": {
@@ -30,7 +30,7 @@
     "@storybook/react": "^8.6.14",
     "@storybook/react-vite": "^8.6.14",
     "@storybook/test": "^8.6.14",
-    "prettier": "^3.6.2",
+    "prettier": "^2.8.8",
     "prop-types": "^15.8.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
