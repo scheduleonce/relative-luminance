@@ -1,6 +1,6 @@
 {
   "name": "@oncehub/relative-luminance",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "description": "Relative luminance formula",
   "main": "lib/index.js",
   "directories": {
@@ -22,18 +22,18 @@
   "types": "lib/index.d.ts",
   "license": "MIT",
   "devDependencies": {
-    "@storybook/addon-essentials": "^8.6.12",
-    "@storybook/addon-interactions": "^8.6.12",
-    "@storybook/addon-links": "^7.6.20",
-    "@storybook/addon-onboarding": "^8.6.12",
-    "@storybook/blocks": "^8.6.12",
-    "@storybook/react": "^8.6.12",
-    "@storybook/react-vite": "^8.6.12",
-    "@storybook/testing-library": "^0.2.0",
+    "@storybook/addon-essentials": "^8.6.14",
+    "@storybook/addon-interactions": "^8.6.14",
+    "@storybook/addon-links": "^8.6.14",
+    "@storybook/addon-onboarding": "^8.6.14",
+    "@storybook/blocks": "^8.6.14",
+    "@storybook/react": "^8.6.14",
+    "@storybook/react-vite": "^8.6.14",
+    "@storybook/test": "^8.6.14",
     "prettier": "^2.8.8",
     "prop-types": "^15.8.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "storybook": "^8.6.12"
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "storybook": "^8.6.14"
   }
 }
