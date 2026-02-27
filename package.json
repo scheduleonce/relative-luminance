@@ -1,6 +1,6 @@
 {
   "name": "@oncehub/relative-luminance",
-  "version": "2.1.5",
+  "version": "2.1.6",
   "description": "Relative luminance formula",
   "main": "lib/index.js",
   "directories": {
@@ -21,6 +21,10 @@
   ],
   "types": "lib/index.d.ts",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scheduleonce/relative-luminance"
+  },
   "devDependencies": {
     "@storybook/addon-essentials": "^8.6.17",
     "@storybook/addon-interactions": "^8.6.17",
