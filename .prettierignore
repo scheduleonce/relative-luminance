@@ -1,2 +1,8 @@
 # package.json is formatted by package managers, so we ignore it here
 package.json
+
+# Build output
+storybook-static/
+
+# Dependencies
+node_modules/

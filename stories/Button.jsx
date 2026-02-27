@@ -6,27 +6,35 @@ import luminance from "../lib/index";
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({ primary, themeColor, size, ...props }) => {
+export const Button = ({
+  primary = false,
+  themeColor = "#006bb1",
+  size = "medium",
+  ...props
+}) => {
   const mode = primary
     ? "storybook-button--primary"
     : "storybook-button--secondary";
   const theme = luminance(themeColor);
-  const color = primary
-    ? theme === "dark"
-      ? "#ffffff"
-      : "#333333"
-    : theme === "light"
-    ? "#333333"
-    : themeColor;
+  let color = themeColor;
+  if (primary) {
+    if (theme === "dark") {
+      color = "#ffffff";
+    } else {
+      color = "#333333";
+    }
+  } else if (theme === "light") {
+    color = "#333333";
+  }
   const borderColor = themeColor === "#ffffff" ? "#333333" : themeColor;
 
   return (
     <button
       type="button"
       className={["storybook-button", `storybook-button--${size}`, mode].join(
-        " "
+        " ",
       )}
-      style={{ backgroundColor: primary ? themeColor : '', color, borderColor }}
+      style={{ backgroundColor: primary ? themeColor : "", color, borderColor }}
       {...props}
     >
       Button
@@ -52,11 +60,4 @@ Button.propTypes = {
    * Optional click handler
    */
   onClick: PropTypes.func,
-};
-
-Button.defaultProps = {
-  themeColor: "#006bb1",
-  primary: false,
-  size: "medium",
-  onClick: undefined,
 };
