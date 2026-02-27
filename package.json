@@ -1,6 +1,6 @@
 {
   "name": "@oncehub/relative-luminance",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "description": "Relative luminance formula",
   "main": "lib/index.js",
   "directories": {
@@ -8,8 +8,8 @@
   },
   "type": "module",
   "scripts": {
-    "test:prettier": "prettier --list-different '**/*.js'",
-    "fix:prettier": "prettier --write '**/*.js'",
+    "test:prettier": "prettier --list-different \"**/*.js\"",
+    "fix:prettier": "prettier --write \"**/*.js\"",
     "test": "npm run test:prettier && node --test test",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
@@ -21,19 +21,23 @@
   ],
   "types": "lib/index.d.ts",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/scheduleonce/relative-luminance"
+  },
   "devDependencies": {
-    "@storybook/addon-essentials": "^8.6.14",
-    "@storybook/addon-interactions": "^8.6.14",
-    "@storybook/addon-links": "^8.6.14",
-    "@storybook/addon-onboarding": "^8.6.14",
-    "@storybook/blocks": "^8.6.14",
-    "@storybook/react": "^8.6.14",
-    "@storybook/react-vite": "^8.6.14",
-    "@storybook/test": "^8.6.14",
+    "@storybook/addon-essentials": "^8.6.17",
+    "@storybook/addon-interactions": "^8.6.17",
+    "@storybook/addon-links": "^8.6.17",
+    "@storybook/addon-onboarding": "^8.6.17",
+    "@storybook/blocks": "^8.6.17",
+    "@storybook/react": "^8.6.17",
+    "@storybook/react-vite": "^8.6.17",
+    "@storybook/test": "^8.6.17",
     "prettier": "^2.8.8",
     "prop-types": "^15.8.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "storybook": "^8.6.14"
+    "storybook": "^8.6.17"
   }
 }
