@@ -26,18 +26,15 @@
     "url": "https://github.com/scheduleonce/relative-luminance"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "^8.6.17",
-    "@storybook/addon-interactions": "^8.6.17",
-    "@storybook/addon-links": "^8.6.17",
-    "@storybook/addon-onboarding": "^8.6.17",
-    "@storybook/blocks": "^8.6.17",
-    "@storybook/react": "^8.6.17",
-    "@storybook/react-vite": "^8.6.17",
-    "@storybook/test": "^8.6.17",
+    "@storybook/addon-docs": "^10.4.0",
+    "@storybook/addon-links": "^10.4.0",
+    "@storybook/addon-onboarding": "^10.4.0",
+    "@storybook/react": "^10.4.0",
+    "@storybook/react-vite": "^10.4.0",
     "prettier": "^2.8.8",
     "prop-types": "^15.8.1",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "storybook": "^8.6.17"
+    "storybook": "^10.4.0"
   }
 }
